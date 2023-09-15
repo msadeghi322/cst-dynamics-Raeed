@@ -43,6 +43,7 @@ td = (
     # .pipe(pyaldata.dim_reduce,SSA(R=15,n_epochs=3000,lr=0.01),'lfads_rates','lfads_ssa')
 )
 
+
 # %%
 trialnum = 228
 trial = td.loc[td['trial_id']==trialnum].squeeze()
